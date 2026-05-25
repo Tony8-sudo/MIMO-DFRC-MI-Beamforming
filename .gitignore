@@ -1,0 +1,31 @@
+# MATLAB autosave and temporary files
+*.asv
+*.m~
+*.tmp
+*.log
+
+# MATLAB figures and binary data
+*.fig
+*.mat
+
+# CVX / solver temporary files
+cvx_slvitrace.*
+cvx_status.*
+mosek.log
+
+# Simulation intermediate results
+results/*.mat
+results/*.log
+
+# Keep result figures if needed
+!results/*.png
+!results/*.pdf
+!results/README.md
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
